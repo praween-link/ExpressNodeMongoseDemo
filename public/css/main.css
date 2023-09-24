@@ -1,0 +1,23 @@
+.nav-pills li a:hover{
+    background-color: rgba(33, 33, 195, 0.542);
+}
+
+.side-menu { grid-area: menu; text-align: start;}
+.body { grid-area: main; width: 100%;}
+.header { grid-area: header; height: 60px;}
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu main main main main main main main main main main'
+    /* 'menu footer footer footer footer footer footer footer footer footer footer' */
+    ;
+  /* gap: 1px; */
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: start;
+  /* max-width: 200px; */
+}

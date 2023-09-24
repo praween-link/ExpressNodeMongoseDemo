@@ -1,0 +1,46 @@
+<!-- Sidebar -->
+<div class="d-flex flex-column justify-context-between col-auto bg-dark min-vh-100 p-1" style="grid-row: auto; align-items: stretch; display: flex; width: 100%; 
+">
+        <a id="menu" onclick="menuAction()" class="text-white text-decoration-none d-flex align-items-center ms-3 mt-3 mb-3" role="button">
+            <i class="bi bi-apple fs-5"></i>&nbsp&nbsp
+            <span class="fs-5">Sidemenu</span>
+        </a>
+        <ul class="nav nav-pills flex-column mt-2 mt-sm-0" id="menu">
+            <li class="nav-item">
+                <a href="/" class="nav-link text-white" aria-current="page">
+                    <i class="bi bi-speedometer2"></i>
+                    <span class="ms-2">Dashboard</span>
+                </a>
+                
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" aria-current="page">
+                    <i class="bi bi-house-fill"></i>
+                    <span class="ms-2">Home</span>
+                </a>
+            </li>
+            <li class="nav-item disabled flex-column ">
+                <a href="#sidemenu" data-bs-toggle = "collapse" class="nav-link text-white" aria-current="page">
+                    <i class="bi bi-microsoft"></i>
+                    <span class="ms-2">Products </span><i class="bi bi-caret-right-fill"></i>
+                </a>
+                <ul class="nav collapse ms-1 flex-column" id="sidemenu" data-bs-parent="#memu">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" aria-current="page">Item-1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Item-2</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white" aria-current="page">
+                    <i class="bi bi-people-fill"></i>
+                    <span class="ms-2">Customers</span>
+                </a>
+            </li>
+        </ul>
+    
+
+</div>
